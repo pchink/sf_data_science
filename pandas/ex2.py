@@ -9,12 +9,16 @@ countries_df = pd.DataFrame({
     'square': [133396, 9984670, 9826630, 17125191, 603628, 207600, 2724902]
 })
 countries_df.index = ['UK', 'CA', 'US', 'RU', 'UA', 'BY', 'KZ']
+countries_df.population
+countries_df.mean(axis=0)
+
 print(countries_df)
+
 # Method 2
 # вложенный список, внутрунний список - строки новой таблицы
 
 countries_df = pd.DataFrame(
-    data = [
+       data = [
         ['Англия', 56.29, 133396],
         ['Канада', 38.05, 9984670],
         ['США', 322.28, 9826630],
