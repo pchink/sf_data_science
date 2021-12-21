@@ -9,10 +9,8 @@ countries_df = pd.DataFrame({
     'square': [133396, 9984670, 9826630, 17125191, 603628, 207600, 2724902]
 })
 countries_df.index = ['UK', 'CA', 'US', 'RU', 'UA', 'BY', 'KZ']
-countries_df.population
-countries_df.mean(axis=0)
-
-print(countries_df)
+#countries_df.population
+print(countries_df.mean(axis=0))
 
 # Method 2
 # вложенный список, внутрунний список - строки новой таблицы
@@ -31,5 +29,4 @@ countries_df = pd.DataFrame(
     index = ['UK', 'CA', 'US', 'RU', 'UA', 'BY', 'KZ']
 )
 
-print(countries_df)
 #display(countries_df)
