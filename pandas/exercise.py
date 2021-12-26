@@ -21,14 +21,15 @@ countries = pd.Series({
 #display(countries)
 print(countries)
 
-#доступ к данным в series
 
+#доступ к данным в series
 print(countries.loc['US'])
 
 #доступ к нескольким данным, оборачиваем в скобки
-
 print(countries.loc[['US', 'RU', 'UK']])
 
 # принимаем на вход порядковый номер элемента Series
-
 print(countries.iloc[6])
+
+# диапазон
+print(countries.iloc[1:4])
